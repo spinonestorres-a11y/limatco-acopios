@@ -16,7 +16,7 @@ App de control de pallets para los acopios 1 y 2 de Limatco, un distribuidor de 
 - **Backend:** `Code.gs` (Apps Script con runtime V8) desplegado como Web App, con `appsscript.json` en zona America/Santiago.
 - **Base de datos:** planilla "Acopios 1 y 2 / 2026" (ID `1CYiBZNVR28hzCVucHLw_6hoRg_B6q6xNM_6uo6psqYU`).
 - **Librerías CDN (jsdelivr):** Chart.js 4.4.1 + chartjs-plugin-datalabels 2.2.0 (todos los gráficos llevan etiquetas de datos visibles), qrcode-generator 1.4.4, html5-qrcode 2.3.8 (escáner) y xlsx 0.18.5.
-- **Estilo visual:** tema oscuro, Space Grotesk, Inter y JetBrains Mono. Verde #41C68E derivado del encabezado verde (#356854) de la planilla.
+- **Estilo visual:** corporativo LiMatCo (desde v1.1): tema claro, rojo de marca #D82D33 (tomado del logo), barra superior roja con `logo-blanco.png`, Inter para textos y JetBrains Mono para códigos. Los colores de estado (libre verde, parcial azul, etc.) son semánticos y no usan el rojo de marca.
 - **Código:** comentarios en español, secciones comentadas y constantes de configuración arriba (`CONFIG` en el HTML, `CFG` en el GS).
 - **Escritura en la planilla:** correlativos automáticos y control de duplicados en todo lo que registra movimientos.
 

@@ -2,8 +2,8 @@
  * index.html: red primero (para que lleguen las actualizaciones), caché si no hay señal.
  * Librerías CDN y fuentes: caché primero.
  * Apps Script (POST) nunca pasa por la caché. Cambia VERSION al publicar cambios grandes. */
-const VERSION = 'limatco-acopios-v1.0.0';
-const BASE = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
+const VERSION = 'limatco-acopios-v1.1.0';
+const BASE = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './logo-blanco.png'];
 const CDN = ['cdn.jsdelivr.net', 'fonts.googleapis.com', 'fonts.gstatic.com'];
 
 self.addEventListener('install', e => {
