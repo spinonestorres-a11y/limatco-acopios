@@ -2,7 +2,7 @@
 
 App de control de pallets para los acopios 1 y 2 de Limatco, un distribuidor de cerámica y porcelanato. El requerimiento original del cliente (transcripción de un audio) está en `docs/requerimiento.md`.
 
-**Estado:** v1.0.0 construida y probada con backend simulado. **Todavía no está desplegada**: no se ha ejecutado `setup()`, `migrarDatosIniciales()` ni la implementación web.
+**Estado:** v1.0.0 desplegada (nov 2026). Frontend en GitHub Pages (https://spinonestorres-a11y.github.io/limatco-acopios/), backend como Web App vía clasp (scriptId `16Or903vEOSMzV7EdiM5YSSM8joD-aTt5_MCNGB0ThWJeMSlmSukbutw3`; abre la planilla por `CFG.SPREADSHEET_ID`). `setup()` y `migrarDatosIniciales()` ya se ejecutaron: no volver a migrar.
 
 ## Cómo trabajar con Seba
 - Responde en español de Chile, tuteando y sin relleno. Términos técnicos en inglés sin traducir (stock, backend, deploy, WMS, SKU).
