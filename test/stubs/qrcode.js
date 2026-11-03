@@ -1,0 +1,1 @@
+window.qrcode=function(){let data='';return{addData(d){data=String(d)},make(){},getModuleCount(){return 25},isDark(r,c){if((r<7&&c<7)||(r<7&&c>17)||(r>17&&c<7))return (r%6===0||c%6===0||(r%6>1&&r%6<5&&c%6>1&&c%6<5));let h=0;for(const ch of data)h=(h*31+ch.charCodeAt(0))>>>0;return ((r*7+c*13+h)%5)<2}}};

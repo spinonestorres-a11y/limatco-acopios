@@ -1,0 +1,18 @@
+{
+  "name": "limatco-acopios",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LIMATCO · Control de Acopios. package.json solo para las pruebas: la app no tiene build step.",
+  "scripts": {
+    "test": "node test/test_backend.js && node test/test_e2e.js e2e && node test/test_e2e.js demo",
+    "test:backend": "node test/test_backend.js",
+    "test:e2e": "node test/test_e2e.js e2e",
+    "test:demo": "node test/test_e2e.js demo",
+    "test:stress": "node test/test_stress.js",
+    "test:etiquetas": "node test/test_labels.js",
+    "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

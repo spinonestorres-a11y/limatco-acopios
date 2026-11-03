@@ -1,0 +1,1 @@
+window.Html5QrcodeSupportedFormats={QR_CODE:0,CODE_128:1,EAN_13:2,CODE_39:3,EAN_8:4};window.Html5Qrcode=class{constructor(){}start(){return Promise.reject(new Error('sin cámara (test)'))}stop(){return Promise.resolve()}clear(){}};
